@@ -1,0 +1,1268 @@
+/* Prayer Engine - Styles for Main Prayer Wall 
+DO NOT EDIT - Your changes will be lost with plugin updates */
+
+#prayerengine {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	clear: both;
+}
+
+#prayerengine * {
+	-webkit-box-sizing: content-box !important;
+	-moz-box-sizing:    content-box !important;
+	box-sizing:         content-box !important;
+	-webkit-hyphens: none;
+}
+
+#prayerengine h1, #prayerengine h2, #prayerengine h3, #prayerengine h4, #prayerengine h5, #prayerengine h6, #prayerengine p, #prayerengine form, #prayerengine ul, #prayerengine ol, #prayerengine li, #prayerengine ol li, #prayerengine ul li, #prayerengine blockquote, #prayerengine input, #prayerengine input[type="submit"], #prayerengine textarea, #prayerengine select, #prayerengine label, #prayerengine table, #prayerengine table tr, #prayerengine table tr td.label, #prayerengine table tr td.prayercell, #prayerengine table tr td.inputcell, #prayerengine table tr td.twittercell, #prayerengine table tr td.optioncell  { /* resets most browser styles to enhance cross-browser compatibility */
+	margin: 0;
+	padding: 0;
+	text-transform: none;
+	letter-spacing: 0;
+	line-height: 1;
+	clear: none;
+	font-weight: 300;
+	font-family: Arial, Helvetica, sans-serif !important;
+	font-variant: normal;
+	float: none;
+	border: none;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	background: none;
+	min-height: 0;
+	text-align: left;
+	text-shadow: none;
+	box-shadow: none;
+	font-style: normal;
+}
+
+#prayerengine table tr td.spamcell  { /* resets most browser styles to enhance cross-browser compatibility */
+	margin: 0;
+	padding: 0;
+	text-transform: none;
+	letter-spacing: 0;
+	line-height: 1;
+	clear: none;
+	font-weight: 300;
+	font-family: Arial, Helvetica, sans-serif;
+	font-variant: normal;
+	float: none;
+	border: none;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	min-height: 0;
+	text-align: left;
+}
+
+#prayerengine table tr td.spamcell iframe {
+}
+
+#prayerengine br {
+	display: none;
+}
+
+#prayerengine .optionarea br {
+	display: block;
+}
+
+#recaptcha_image img { width: 180px; box-shadow: none; border-radius: 0; border: none; } 
+
+
+#prayerengine label {
+	display: inline;
+}
+
+#prayerengine a {
+	border: none !important;
+}
+	
+
+/* ---------- Prayer Engine Structure ---------- */
+
+#pe-container {
+	min-width: 480px;
+	margin: 0;
+	padding: 20px 0 20px 0;
+}
+
+/* ---------- PRAYER REQUEST FORM ---------- */
+
+#prayerengine .pe-explore-bar {
+	background-color: #f1f1f1;
+	height: 40px;
+	padding: 10px;
+}
+
+#prayerengine .pe-explore-bar h4.pe-form-toggle, #prayerengine .pe-explore-bar h4.pe-focus-form-toggle {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+}
+
+#prayerengine .pe-explore-bar h4.pe-form-toggle a {
+	display: block;
+	width: 240px;
+	padding: 0 0 0 39px;
+	height: 40px;
+	border-radius: 20px;
+		background: url('../images/light_contact.png') no-repeat;
+		background-size: 18px 18px;
+	background-position: 14px 11px;
+	background-color: #98002e;
+	float: left;
+	text-decoration: none;
+	line-height: 40px;
+	text-transform: uppercase;
+	color: #ffffff;
+	font-size: 14px !important;
+}
+
+#prayerengine .pe-explore-bar h4.pe-focus-form-toggle a {
+	display: block;
+	min-width: 140px;
+	padding: 0 0 0 39px;
+	height: 40px;
+	border-radius: 20px;
+		background: url('../images/light_calendar.png') no-repeat;
+		background-size: 18px 18px;
+	background-position: 14px 11px;
+	background-color: #98002e;
+	float: left;
+	text-decoration: none;
+	line-height: 40px;
+	text-transform: uppercase;
+	color: #ffffff;
+	font-size: 14px !important;
+}
+
+#pe-submit-container {
+	padding: 0;
+}
+
+#pe-form-container {
+	padding: 0;
+	display: none;
+	background-color: #f1f1f1; 
+}
+
+#pe-twitter-area {
+}
+
+#pe-submit-area {
+	text-align: right;
+	padding: 10px;
+	height: 40px;
+	margin: 10px 0 0 0;
+	background-color: #e7e7e7;
+}
+
+/* Instructions */
+
+#prayerengine #pe-form-container p.instructions {
+	font-size: 14px !important;
+	line-height: 130%;
+	margin: 0 0 15px 0;
+	padding: 10px 15px 0 15px;
+	color: #000000;
+}
+
+#prayerengine #pe-form-container.noformtoggle p.instructions {
+	font-size: 14px !important;
+	line-height: 130%;
+	margin: 0 0 15px 0;
+	padding: 20px 15px 0 15px;
+	color: #000000;
+}
+
+/* Table styles to nicely space the form */
+
+#pe-form-container table {
+	margin: 0 0 0 7px;
+	width: 100%;
+}
+
+#pe-form-container table tr td {
+	border: none !important;
+	background: none !important;
+}
+
+#pe-form-container table tr td.inputcell, #pe-form-container table tr td.optioncell, #pe-form-container table tr td.prayercell, #pe-form-container table tr td.spamcell {
+	padding: 5px;
+}
+
+#pe-form-container table tr td.label {
+	white-space: normal;
+	padding: 18px 10px 0 0;
+	width: 100px;
+	vertical-align: top;
+	text-align: right;
+	font-size: 14px !important;
+}
+
+#pe-form-container table tr td.label.dropdown {
+	padding: 10px 10px 0 0;
+}
+
+#pe-form-container table tr td.inputcell {
+	vertical-align: top;
+	width: 80%;
+}
+
+#pe-form-container table tr td.prayercell, #pe-form-container table tr td.twittercell{
+	padding: 5px 25px 5px 5px;
+	width: 80%;
+}
+
+#pe-form-container table tr td.spamcell {
+	padding: 10px 25px 5px 5px;
+	width: 80%;
+}
+
+/* Label styles for the form */
+
+#pe-form-container label {
+	font-size: 14px !important;
+	font-weight: 700;
+	color: #000000;
+}
+
+#pe-form-container label.checkbox {
+	font-size: 14px !important;
+	font-weight: 300;
+	padding: 0 5px 0 0;
+	color: #000000;
+	margin: -5px 0 0 0;
+}
+
+#pe-form-container label.error {
+	display: block;
+	padding: 2px 0 0 0;
+	font-size: 11px !important;
+	font-style: italic;
+}
+
+/* Input styles for the form */
+
+#pe-form-container input, #pe-form-container textarea, #pe-form-container select {
+	font-family: Arial, Helvetica;
+	font-size: 15px !important;
+	line-height: 120%;
+	padding: 5px;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border: 2px solid #ffffff; 
+	background-color: #ffffff; 
+	color: #000000;
+	-webkit-appearance: none;
+}
+
+#pe-form-container select {
+	-webkit-appearance: menulist;
+}
+
+#pe-form-container input:focus, #pe-form-container textarea:focus, #pe-form-container select:focus {
+	outline: none;
+}
+
+#pe-form-container input {
+	font-size: 15px !important;
+	padding: 5px 10px 5px 10px;
+	height: 24px;
+	width: 60%;
+}
+
+#pe-form-container input.check {
+	width: 20px;
+	display: inline-block;
+	margin: 6px 0 0 0 !important;
+	padding: 5px 0 0 0 !important;
+	height: 14px;
+	-webkit-appearance: checkbox;
+	background: none;
+}
+
+#prayerengine #pe-form-container input.pe-submit, #prayerengine input[type="submit"] {
+	display: block;
+	float: right;
+	width: 180px;
+	height: 40px;
+	line-height: 40px;
+	background-color: #98002e; 
+	color: #ffffff;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0;
+	border-radius: 20px;
+	font-size: 14px !important;
+	-webkit-appearance: none;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+#pe-form-container textarea {
+	font-size: 15px !important;
+	padding: 10px;
+	height: 150px;
+	width: 92%;
+}
+
+#pe-form-container textarea#prayer {
+	height: 140px;
+}
+
+/* Styles for the optional Twitter area */
+
+#pe-twitter-area table tr td.label {
+	white-space: normal;
+	padding: 18px 10px 0 0;
+	width: 100px;
+	vertical-align: top;
+	text-align: right;
+	font-size: 14px !important;
+}
+
+#pe-form-container #pe-twitter-area textarea {
+	height: 50px;
+}
+
+#prayerengine #pe-form-container #pe-twitter-area p.twitter-counter {
+	padding: 6px 0 0 0;
+	font-size: 12px !important;
+	font-style: italic;
+	color: #000000;
+}
+
+/* PHP Error and Success Messages */
+
+#pe-form-container #errors, .enmpe-signupform #errors {
+	width: 100%;
+	padding: 15px 0 2px 0;
+	background-color: #999999; 
+	color: #ffffff;
+}
+
+#prayerengine #pe-form-container #errors p, .enmpe-signupform #errors p {
+	font-size: 14px !important;
+	margin: 0 15px 15px 15px;
+	font-weight: 700;
+}
+
+#prayerengine #pe-form-container #errors ul, .enmpe-signupform #errors ul {
+	margin: 10px 0 10px 0;
+}
+
+#prayerengine #pe-form-container #errors ul li, .enmpe-signupform #errors ul li {
+	margin: 0 10px 5px 30px !important;
+	padding: 0;
+	font-size: 14px !important;
+	list-style-type: disc;
+	line-height: 100%;
+}
+
+#pe-form-container #success, .enmpe-signupform #success {
+	width: 100%;
+	padding: 10px 0 10px 0;
+	background-color: #98002e; 
+	color: #ffffff;
+}
+
+#prayerengine #pe-form-container #success p, .enmpe-signupform #success p {
+	font-size: 14px !important;
+	margin: 0 15px 0 15px;
+	line-height: 120%;
+	font-weight: 700;
+}
+
+/* ---------- PRAYER REQUEST LISTS ---------- */
+
+#pe-prayer-list {
+	margin: 15px 0 15px 0;
+}
+
+#prayerengine .pe-prayer-even {
+	padding: 15px;
+	background-color: #f1f1f1;
+}
+
+#prayerengine .pe-prayer-odd {
+	padding: 15px;
+	background-color: #ffffff; 
+}
+
+#prayerengine .pe-prayer-even h3, #prayerengine .pe-prayer-odd h3 {
+	font-size: 16px !important;
+	margin: 0 0 10px 0;
+	padding: 6px 0 0 0;
+	font-weight: 700;
+	display: block;
+	color: #000000;
+}
+
+#prayerengine .pe-prayer-even h3 a:link, #prayerengine .pe-prayer-odd h3 a:link, #prayerengine .pe-prayer-even h3 a:visited, #prayerengine .pe-prayer-odd h3 a:visited {
+	color: #000000;
+	text-decoration: none;
+}
+
+#prayerengine .pe-prayer-even h3 a:hover, #prayerengine .pe-prayer-odd h3 a:hover, #prayerengine .pe-prayer-even h3 a:active, #prayerengine .pe-prayer-odd h3 a:active {
+	color: #000000;
+	text-decoration: underline;
+}
+
+#prayerengine .pe-prayer-even h3.pe-name, #prayerengine .pe-prayer-odd h3.pe-name {
+	font-size: 16px !important;
+	margin: 0 0 10px 0;
+	padding: 6px 0 0 0;
+	font-weight: 700;
+	display: block;
+}
+
+#prayerengine .pe-prayer-even p, #prayerengine .pe-prayer-odd p {
+	font-size: 14px !important;
+	margin: 0 0 12px 0;
+	padding: 0;
+	line-height: 130%;
+	clear: right;
+	color: #000000;
+}
+
+#prayerengine .pe-prayer-even h4, #prayerengine .pe-prayer-odd h4 {
+	font-size: 12px !important;
+	color: #919191;
+}
+
+#prayerengine .pe-count-area {
+	float: right;
+	width: 316px;
+	margin: 0 0 10px 0;
+}
+
+#prayerengine .pe-count-area h4 {
+	font-size: 13px !important;
+	font-weight: 300;
+	text-align: right;
+	padding: 10px 0 0 0;
+	color: #aaaaaa;
+}
+
+#prayerengine .pe-count-area h4 strong {
+	font-weight: 700;
+	color: #98002e;
+}
+
+#prayerengine .pe-count-area form a.submitlink {
+	display: block;
+	width: 166px;
+	height: 30px;
+	line-height: 30px;
+	border-radius: 15px;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 13px !important;
+	float: right;
+	margin: 0 0 0 20px;
+	color: #ffffff;
+}
+
+#prayerengine .pe-count-area a.submitlink:link {background-color: #aaaaaa;}
+#prayerengine .pe-count-area a.submitlink:visited {background-color: #aaaaaa;}
+#prayerengine .pe-count-area a.submitlink:hover {background-color: #aaaaaa;}
+#prayerengine .pe-count-area a.submitlink:active {background-color: #aaaaaa;}
+
+#prayerengine .pe-count-area blockquote {
+	display: block;
+	width: 166px;
+	height: 30px;
+	line-height: 30px;
+	border-radius: 15px;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-style: italic;
+	font-size: 13px !important;
+	float: right;
+	margin: 0 0 0 20px;
+	background-color: #e1e1e1;
+	color: #ffffff;
+}
+
+#prayerengine p#walllink {
+	text-align: center;
+	padding: 20px 0 0 0;
+	font-size: 14px !important;
+}
+
+#prayerengine p#walllink a:link, #prayerengine p#walllink a:visited {
+	color: #000000;
+}
+
+#prayerengine p#walllink a:hover, #prayerengine p#walllink a:active {
+	color: #000000;
+}
+
+/* ---------- PAGINATION ---------- */
+
+#prayerengine .pe-pagination {
+	text-align: center;
+	padding: 10px 0 0 0;
+	font-family: Arial, Helvetica, San-serif;
+}
+
+#prayerengine .pe-pagination .pe-current-page {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	text-decoration: none;
+	background-color: #f1f1f1; 
+	color: #D4D4D4;
+	border-radius: 15px;
+	padding: 0;
+	font-size: 14px !important;
+}
+
+#prayerengine .pe-pagination a {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	text-decoration: none;
+	color: #D4D4D4;
+	border-radius: 15px;
+	padding: 0;
+	font-size: 14px !important;
+}
+
+#prayerengine .pe-pagination a span {
+	display: none;
+}
+
+#prayerengine .pe-pagination a.next.page-numbers, #prayerengine .pe-pagination a.previous.page-numbers {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	text-decoration: none;
+	background-color: #98002e; 
+	color: #ffffff;
+	border-radius: 15px;
+	padding: 0;
+	font-size: 14px !important;
+}
+
+/* --------- PRAYER ENGINE BRANDING ---------- */
+
+h3.enmpe-poweredby {
+	margin: 5px 0 0 0 !important;
+	text-indent: -9000px;
+	width: 148px;
+	height: 40px;
+		background: url('../images/pe_light_poweredby.png') no-repeat;	
+		float: right;
+	padding: 0;
+}
+
+h3.enmpe-poweredby a {
+	display: block;
+	width: 148px;
+	height: 40px;
+}
+
+p.enmpe-poweredbytext {
+	margin: 5px 0 10px 0;
+	text-align: right;
+	font-size: 13px !important;
+	color: #d6d6d6;
+}
+
+p.enmpe-poweredbytext a:link, p.enmpe-poweredbytext a:visited, p.enmpe-poweredbytext a:hover, p.enmpe-poweredbytext a:active {
+	color: #d6d6d6;
+}
+
+/* ----------- reCAPTCHA STYLES ---------- */
+
+#prayerengine #perecaptcha_widget {
+	width: 200px;
+}
+
+#prayerengine #perecaptcha_widget #recaptcha_image {
+	margin: 0 0 10px 0;
+	width: 180px !important;
+}
+
+#prayerengine #perecaptcha_widget span.recaptcha_only_if_image, #prayerengine #perecaptcha_widget span.recaptcha_only_if_audio {
+	font-size: 15px !important;
+	display: block;
+	margin: 0 0 4px 0;
+	color: #000000;
+}
+
+#prayerengine #perecaptcha_widget #recaptcha_response_field {
+	width: 170px;
+}
+
+span.perecaptcha_options {
+	font-size: 14px !important;
+	padding: 6px 0 1px 0;
+	font-weight: 700;
+	display: block;
+	color: #000000;
+}
+
+div.recaptcha_only_if_image a, div.recaptcha_only_if_audio a, div.perecaptcha_link a {
+	font-size: 14px !important;
+	text-decoration: underline;
+	color: #000000;
+}
+
+#prayerengine .pe-prayer-even h4.answered, #prayerengine .pe-prayer-odd h4.answered {
+	display: block;
+	padding: 5px 3px 5px 3px;
+	text-align: center;
+	font-size: 14px !important;
+	margin: 0 0 6px 0;
+	text-transform: uppercase;
+	color: #ffffff;
+	background-color: #98002e;
+}
+
+/* Version 2.0 */
+
+#prayerengine.prayerfocus .g-recaptcha {
+	transform:scale(1);
+	-webkit-transform:scale(1);
+	transform-origin:0 0;
+	-webkit-transform-origin:0 0;
+	margin-left: 25%;
+}
+
+#prayerengine.prayerfocus .full {
+	display: inline;
+}
+
+#prayerengine.prayerfocus .abr {
+	display: none;
+}
+
+#prayerengine.prayerfocus table {
+	margin-top: 30px !important;
+	border-collapse: separate;
+	border-spacing: 0 2px !important;
+}
+
+#prayerengine.prayerfocus table td {
+	border: none !important;
+}
+
+#prayerengine.prayerfocus table tr.enmpe-day-labels th {
+	text-align: center;
+	font-size: 13px !important;
+	background-color: #666666;
+	padding: 14px 0 14px 0 !important;
+	color: #ffffff;
+	text-transform: uppercase !important;
+	line-height: 100%;
+	border: none !important;
+}
+
+#prayerengine.prayerfocus table tr.enmpe-day-labels th.peblank {
+	background: none !important;
+}
+
+#prayerengine.prayerfocus table tr.enmpe-day-labels th.sevendays {
+	width: 12.5% !important;
+}
+
+#prayerengine.prayerfocus table tr.enmpe-day-labels th.sixdays {
+	width: 14.5% !important;
+}
+
+#prayerengine.prayerfocus table tr.enmpe-day-labels th.fivedays {
+	width: 17.5% !important;
+}
+
+#prayerengine.prayerfocus table tr.enmpe-day-labels th.fourdays {
+	width: 22% !important;
+}
+
+#prayerengine.prayerfocus table tr.enmpe-day-labels th.threedays {
+	width: 29% !important;
+}
+
+#prayerengine.prayerfocus table tr.enmpe-day-labels th.twodays {
+	width: 44% !important;
+}
+
+#prayerengine.prayerfocus table tr.enmpe-day-labels th.oneday {
+	width: 88% !important;
+}
+
+#prayerengine.prayerfocus table tr.enmpe-hour-labels th {
+	text-align: center;
+	padding: 10px 3px 10px 3px;
+	background-color: #c6c6c6;
+	font-size: 13px;
+	color: #ffffff;
+	line-height: 100%;
+	border: none !important;
+}
+
+#prayerengine.prayerfocus table tr.enmpe-hour-labels.oddrow {
+	background-color: #f1f1f1;
+}
+
+#prayerengine.prayerfocus table tr.enmpe-hour-labels:hover {
+	background-color: #98002e;
+}
+
+#prayerengine.prayerfocus table tr.enmpe-hour-labels td {
+	text-align: center;
+	padding: 10px 3px 10px 3px;
+	color: #cdcdcd;
+	vertical-align: middle;
+}
+
+#prayerengine.prayerfocus table tr.enmpe-hour-labels td strong {
+	color: #000000;
+}
+
+/* Sign Up Form */
+
+#prayerengine.prayerfocus .enmpe-signupform {
+	background-color: #f1f1f1;
+	display: none;
+}
+
+#prayerengine.prayerfocus form {
+}
+
+#prayerengine.prayerfocus form .enmpe-instruction-container {
+	padding: 20px 15px 20px 15px;
+}
+
+#prayerengine.prayerfocus form .enmpe-instruction-container p {
+	font-size: 14px;
+	padding: 5px 0 0 0;
+	margin: 0;
+	color: #000000;
+}
+
+#prayerengine.prayerfocus .pe-formfield-container {
+	width: 47%;
+	float: left;
+	padding: 8px;
+}
+
+#prayerengine.prayerfocus .enmpe-form-fields {
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+
+#prayerengine.prayerfocus span.pe-formfield-label {
+	min-width: 88px;
+	width: 22%;
+	font-weight: 700;
+	font-size: 14px !important;
+	display: inline-block;
+	text-align: right;
+	padding: 0 10px 0 0;
+	margin: 0 important!;
+	color: #000000;
+}
+
+#prayerengine.prayerfocus input.normalfield {
+	display: inline !important;
+	border: 1px solid #ffffff !important;
+	width: 68% !important;	
+	background-color: #ffffff !important;
+	padding: 5px;
+	margin: 0;
+	color: #000000 !important;
+	-webkit-appearance: none;
+	font-size: 15px !important;
+	height: 24px;
+}
+
+#prayerengine.prayerfocus input.normalfield:focus {
+	outline: none; 
+}  
+
+#prayerengine.prayerfocus select {
+	border: 1px solid #ffffff !important;
+	background-color: #ffffff !important;
+	color: #000000 !important;
+	display: inline;
+	width: 70% !important;
+	font-size: 15px !important;
+	margin: 0 !important;
+	height: 34px;
+	background-image: none !important;
+	-webkit-appearance: menulist !important; 
+	appearance: menulist !important;
+	vertical-align: middle !important;
+}
+
+#prayerengine.prayerfocus select:focus {
+	outline: none; 
+}
+
+#prayerengine.prayerfocus .enmpe-form-fields {
+	margin: 0 0 15px 0;
+}
+
+#prayerengine.prayerfocus .pe-submit-padding {
+	clear: both;
+	padding: 10px 0 0 0;
+	background-color: #e7e7e7;
+	height: 50px;
+}
+
+#prayerengine.prayerfocus input.pe-submit {
+	margin-right: 20px !important;
+	background-color: #98002e; 
+	color: #ffffff;
+}
+
+
+#prayerengine.prayerfocus .enmpe-signupform.pe-small select {
+	width: 64% !important;
+	font-size: 16px; !important
+	-webkit-appearance: none;
+	font-size: 50px;
+}
+
+#prayerengine.prayerfocus .enmpe-signupform.pe-small input.normalfield {
+	width: 61% !important;	
+	font-size: 16px !important;
+	-webkit-appearance: none;
+}
+
+#prayerengine.prayerfocus .enmpe-signupform.pe-small .pe-formfield-container {
+	width: 100%;
+	float: none;
+}
+
+#prayerengine.prayerfocus .enmpe-signupform.pe-small input.pe-submit {
+	margin: 0 auto !important;
+	float: none !important;
+}
+
+#prayerengine.prayerfocus .enmpe-signupform.pe-small .penospam {
+	text-align: center;
+}
+
+#prayerengine.prayerfocus .enmpe-signupform.pe-medium .g-recaptcha {
+	display: inline-block;
+	transform:scale(0.75);
+	-webkit-transform:scale(0.75);
+	transform-origin:0 0;
+	-webkit-transform-origin:0 0;
+}
+
+#prayerengine.prayerfocus .enmpe-signupform.pe-small .g-recaptcha {
+	display: inline-block;
+	transform:scale(0.92);
+	-webkit-transform:scale(0.92);
+	transform-origin:0 0;
+	-webkit-transform-origin:0 0;
+	margin-left: 0;
+}
+
+#prayerengine.prayerfocus .enmpe-signupform.pe-medium .pe-formfield-container {
+	width: 46%;
+	float: left;
+	padding: 10px;
+}
+
+#prayerengine.prayerfocus .enmpe-signupform.pe-medium select {
+	width: 62%!important;
+}
+
+#prayerengine.prayerfocus .enmpe-signupform.pe-medium input.normalfield {
+	width: 56% !important;	
+}
+
+#prayerengine.prayerfocus table.pe-medium tr.enmpe-day-labels th.fivedays .full, #prayerengine.prayerfocus table.pe-medium tr.enmpe-day-labels th.sixdays .full, #prayerengine.prayerfocus table.pe-medium tr.enmpe-day-labels th.sevendays .full {
+	display: none;
+}
+
+#prayerengine.prayerfocus table.pe-medium tr.enmpe-day-labels th.fivedays .abr, #prayerengine.prayerfocus table.pe-medium tr.enmpe-day-labels th.sixdays .abr, #prayerengine.prayerfocus table.pe-medium tr.enmpe-day-labels th.sevendays .abr {
+	display: inline;
+}
+
+#prayerengine.prayerfocus .enmpe-prayerfocus-table.pe-small .full {
+	display: none;
+}
+
+#prayerengine.prayerfocus .enmpe-prayerfocus-table.pe-small .abr {
+	display: inline;
+}
+
+#prayerengine.prayerfocus table.enmpe-prayerfocus-table.pe-small tr.enmpe-day-labels th.twodays .full, #prayerengine.prayerfocus table.enmpe-prayerfocus-table.pe-small tr.enmpe-day-labels th.oneday .full {
+	display: inline;
+}
+
+#prayerengine.prayerfocus table.enmpe-prayerfocus-table.pe-small tr.enmpe-day-labels th.twodays .abr, #prayerengine.prayerfocus table.enmpe-prayerfocus-table.pe-small tr.enmpe-day-labels th.oneday .abr {
+	display: none;
+}
+
+
+@media (min-width:701px) and (max-width: 850px) { 
+	#prayerengine.prayerfocus .pe-formfield-container {
+		width: 47%;
+	}
+
+	#prayerengine.prayerfocus span.pe-formfield-label {
+		width: 21%;
+	}
+
+	#prayerengine.prayerfocus input.normalfield {
+		width: 62% !important;	
+	}
+
+	#prayerengine.prayerfocus select {
+		width: 60% !important;
+	}
+
+	#prayerengine.prayerfocus .g-recaptcha {
+		transform:scale(0.75);
+		-webkit-transform:scale(0.75);
+		transform-origin:0 0;
+		-webkit-transform-origin:0 0;
+		margin-left: 30%;
+	}
+}
+
+@media (max-width: 750px) { 
+	#prayerengine.prayerfocus .full {
+		display: none;
+	}
+
+	#prayerengine.prayerfocus table tr.enmpe-day-labels th.twodays .full, #prayerengine.prayerfocus table tr.enmpe-day-labels th.oneday .full {
+		display: inline;
+	}
+
+	#prayerengine.prayerfocus .abr {
+		display: inline;
+	}
+
+	#prayerengine.prayerfocus table tr.enmpe-day-labels th.twodays .abr, #prayerengine.prayerfocus table tr.enmpe-day-labels th.oneday .abr {
+		display: none;
+	}
+}
+
+/* ----- For Themes with Mobile Views ----- */
+
+@media (max-width: 700px) {
+	#pe-container {
+		min-width: 100px;
+	}
+
+	#prayerengine .pe-explore-bar {
+		padding: 10px 0 10px 0;
+	}
+
+	#prayerengine .pe-explore-bar h4.pe-form-toggle {
+		margin: 0;
+		padding: 0;
+		position: relative;
+		width: 259px;
+		margin: 0 auto;
+	}
+
+	#prayerengine .pe-explore-bar h4.pe-focus-form-toggle {
+		margin: 0;
+		padding: 0;
+		position: relative;
+		width: 179px;
+		margin: 0 auto;
+	}
+
+	#prayerengine .pe-explore-bar h4.pe-form-toggle a {
+		display: block;
+		width: 220px;
+		font-size: 13px !important;
+	}
+
+	#prayerengine .pe-explore-bar h4.pe-focus-form-toggle a {
+		display: block;
+		width: 140px;
+		font-size: 14px !important;
+		float: none;
+	}
+
+	#prayerengine .pe-count-area {
+		float: none;
+		width: 100%;
+		margin: 0 0 10px 0;
+	}
+
+	#prayerengine .pe-count-area h4 {
+		font-size: 13px !important;
+		font-weight: 300;
+		text-align: center;
+		padding: 6px 0 0 0;
+	}
+
+	#prayerengine .pe-count-area h4 strong {
+		font-weight: 700;
+	}	
+
+	#prayerengine .pe-count-area form a.submitlink {
+		display: block;
+		width: 166px;
+		height: 30px;
+		line-height: 30px;
+		border-radius: 15px;
+		text-decoration: none;
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 13px !important;
+		float: none;
+		margin: 0 auto;
+		color: #ffffff;
+	}
+
+	#prayerengine .pe-count-area blockquote {
+		display: block;
+		width: 166px;
+		height: 30px;
+		line-height: 30px
+		text-decoration: none;
+		text-align: center;
+		text-transform: uppercase;
+		font-style: italic;
+		font-size: 13px !important;
+		float: none;
+		margin: 0 auto;
+	}
+
+	/* Instructions */
+
+	#pe-submit-area {
+		text-align: center;
+		padding: 10px;
+		height: 40px;
+		margin: 10px 0 0 0;
+	}
+
+	/* Input styles for the form */
+
+	#pe-form-container table {
+		margin: 0 0 0 10px;	
+		width: auto;
+	}
+
+	#pe-form-container table tr td {
+		display: block;
+		text-align: left;
+		padding: 5px;
+		width: 100%;
+		border: none !important;
+	}
+
+	#pe-form-container table tr td.label, #pe-form-container table tr td.label.dropdown, #pe-form-container table tr td.inputcell, #pe-form-container table tr td.optioncell, #pe-form-container table tr td.prayercell, #pe-form-container table tr td.spamcell, #pe-form-container table tr td.twittercell {
+		text-align: left;
+		padding: 5px;
+		width: 100%;
+	}
+
+	#pe-form-container table tr td.label.spam {
+		text-align: left;
+		padding: 10px 5px 5px 5px;
+		width: 100%;
+	}
+
+	#pe-form-container table tr td.label.empty {
+		display: none;
+	}
+
+	#pe-form-container table tr td input {
+		width: 78%;
+		margin: 0 0 8px 0;
+		font-size: 16px !important;
+	}
+
+	#pe-form-container table tr td select {
+		width: 82%;
+		margin: 0 0 8px 0;
+		font-size: 16px !important;
+	}
+
+	#pe-form-container table tr td textarea, #pe-form-container table tr td.twittercell textarea {
+		width: 78%;
+		margin: 0 0 8px 0;
+		font-size: 16px !important;
+	}
+
+	#pe-form-container label.checkbox {
+		
+	}
+
+	#pe-form-container input.check {
+		width: 20px;
+		display: inline-block;
+		margin: 6px 0 0 0;
+		padding: 5px 0 0 0;
+		height: 14px;
+		font-size: 30px;
+	}
+
+	#pe-form-container input[type="text"], #pe-form-container textarea {
+		-webkit-appearance: none;
+	}
+
+	#prayerengine #pe-form-container input.pe-submit, #prayerengine input[type="submit"] {
+		display: block;
+		float: none;
+		width: 180px;
+		height: 40px;
+		line-height: 40px;
+		background-color: #98002e; 
+		color: #ffffff;
+		text-align: center;
+		text-transform: uppercase;
+		margin: 0 auto !important;
+		border-radius: 20px;
+		font-size: 14px !important;
+		-webkit-appearance: none;
+	}
+
+	#prayerengine a.pepnumber, #prayerengine .pe-pagination span.pe-current-page {
+		display: none;
+	}
+
+	#prayerengine .pe-pagination a.next.page-numbers, #prayerengine .pe-pagination a.previous.page-numbers {
+		display: inline-block;
+		width: 70px;
+		height: 30px;
+		line-height: 30px;
+		text-align: center;
+		text-decoration: none;
+		border-radius: 15px;
+		padding: 0;
+		text-transform: uppercase;
+	}
+
+	#prayerengine .pe-pagination a span {
+		display: inline;
+	}
+
+	#prayerengine #perecaptcha_widget {
+		width: 100%;
+	}
+
+	#prayerengine #perecaptcha_widget #recaptcha_image {
+		margin: 0 0 10px 0;
+		width: 160px !important;
+	}
+
+	#prayerengine #perecaptcha_widget #recaptcha_response_field {
+		width: 78%;
+		margin: 0 0 8px 0;
+		font-size: 16px !important;
+	}
+
+	#pe-submit-area {
+		text-align: right;
+		margin: 10px 0 0 0;
+		padding: 10px 10px 10px 8px;
+		height: inherit;
+	}	
+
+	h3.enmpe-poweredby {
+		margin: 26px auto 10px auto !important;
+		float: none;
+	}
+	
+	p.enmpe-poweredbytext {
+		margin: 26px 0 10px 0 !important;
+		text-align: center;
+		float: none;
+	}
+
+	#prayerengine .pe-prayer-even h4.answered span, #prayerengine .pe-prayer-odd h4.answered span {
+		display: none;
+	}
+
+	/* Prayer Week */
+
+	#prayerengine.prayerfocus .full {
+		display: none;
+	}
+
+	#prayerengine.prayerfocus .abr {
+		display: inline;
+	}
+
+	#prayerengine.prayerfocus table tr.enmpe-day-labels th.twodays .full, #prayerengine.prayerfocus table tr.enmpe-day-labels th.oneday .full {
+		display: inline;
+	}
+
+	#prayerengine.prayerfocus table tr.enmpe-day-labels th.twodays .abr, #prayerengine.prayerfocus table tr.enmpe-day-labels th.oneday .abr {
+		display: none;
+	}
+
+	#prayerengine.prayerfocus .enmpe-signupform .pe-formfield-container, #prayerengine.prayerfocus .enmpe-signupform.pe-medium .pe-formfield-container,  #prayerengine.prayerfocus .enmpe-signupform.pe-small .pe-formfield-container {
+		width: 100%;
+		float: none;
+	}
+
+	#prayerengine.prayerfocus .enmpe-signupform select, #prayerengine.prayerfocus .enmpe-signupform.pe-medium select, #prayerengine.prayerfocus .enmpe-signupform.pe-small select {
+		width: 57% !important;
+		font-size: 16px; !important
+		-webkit-appearance: none;
+	}
+
+	#prayerengine.prayerfocus .enmpe-signupform input.normalfield, #prayerengine.prayerfocus .enmpe-signupform.pe-medium input.normalfield, #prayerengine.prayerfocus .enmpe-signupform.pe-small input.normalfield {
+		width: 57% !important;	
+		font-size: 16px !important;
+		-webkit-appearance: none;
+	}
+
+	#prayerengine.prayerfocus .enmpe-signupform input.pe-submit, #prayerengine.prayerfocus .enmpe-signupform.pe-medium input.pe-submit, #prayerengine.prayerfocus .enmpe-signupform.pe-small input.pe-submit {
+		margin: 0 auto !important;
+		float: none !important;
+	}
+
+	#prayerengine.prayerfocus .penospam {
+		text-align: center;
+	}
+
+	#prayerengine.prayerfocus .g-recaptcha, #prayerengine.prayerfocus .enmpe-signupform.pe-medium .g-recaptcha {
+		display: inline-block;
+		transform:scale(0.92);
+		-webkit-transform:scale(0.92);
+		transform-origin:0 0;
+		-webkit-transform-origin:0 0;
+		margin-left: 0;
+	}
+
+}
+
+
+@media (-webkit-min-device-pixel-ratio: 2) {
+	#prayerengine .pe-explore-bar h4.pe-form-toggle a {
+				background: url('../images/light_contact2x.png') no-repeat;
+				background-size: 18px 18px;
+		background-position: 14px 11px;
+		background-color: #98002e;
+	}
+
+	#prayerengine .pe-explore-bar h4.pe-focus-form-toggle a {
+				background: url('../images/light_calendar2x.png') no-repeat;
+				background-size: 18px 18px;
+		background-position: 14px 11px;
+		background-color: #98002e;
+	}
+
+	h3.enmpe-poweredby {
+				background: url('../images/pe_light_poweredby2x.png') no-repeat;	
+				background-size: 148px 40px;
+	}
+}
